@@ -5,9 +5,7 @@
   "main": "index.js",
   "homepage": "https://aniketsat.github.io/Timestamp-Microservice/",
   "scripts": {
-    "start": "node index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.0",
@@ -26,8 +24,5 @@
     "express",
     "freeCodeCamp"
   ],
-  "license": "MIT",
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  }
+  "license": "MIT"
 }
